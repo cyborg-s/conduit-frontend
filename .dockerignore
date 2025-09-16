@@ -1,9 +1,28 @@
-node_modules
-dist
-build
-.env
-*.env
-.vscode
-.idea
+# Node modules and lock files
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build output
+dist/
+build/
+.tmp/
+coverage/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swo
+*.swp
+
+# OS Files
 .DS_Store
 Thumbs.db
+
+# Git / Docker internals
+.git
+.gitignore
+.dockerignore
+Dockerfile
